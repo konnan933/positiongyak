@@ -1,7 +1,36 @@
 
+#ablak {
+    position: absolute;
+    top: 450px;
+    left: 450px;
+    z-index: 1;
+    position: relative;
+    width: 350px;
+    background: beige;
+    padding: 10px;
+    border-radius: 15px;
+}
+form fieldset {
+    margin-top: 35px;
+    display: grid;
+    grid-template-columns: 50px 50px;
+}
+label {
+    text-align: right;
+}
+
+.bezar {
+    position: absolute;
+    right: 10px;
+    color:black;
+    padding: 15px;
+    font-size: 20px;
+    cursor: grab;
+}
 article{
     margin: auto;
     width: 800px;
+    position: relative;
 }
 .kicsik{
     display: grid;
