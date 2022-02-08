@@ -1,5 +1,9 @@
 
 #ablak {
+    position: absolute;
+    top: 450px;
+    left: 450px;
+    z-index: 1;
     position: relative;
     width: 350px;
     background: beige;
@@ -17,7 +21,7 @@ label {
 
 .bezar {
     position: absolute;
-    right: 1px;
+    right: 10px;
     color:black;
     padding: 15px;
     font-size: 20px;
@@ -26,6 +30,7 @@ label {
 article{
     margin: auto;
     width: 800px;
+    position: relative;
 }
 .kicsik{
     display: grid;
