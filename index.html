@@ -5,8 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dervalcis Attila || Ódor Norbert || Molnár Szabrina</title>
     <link rel="stylesheet" href="style.css">
+    <script>
+        function bezar() {
+            console.log("hahó");
+            document.getElementById("ablak").style.display = "none";
+        }
+    </script>
 </head>
 <body>
+
     <header>
         <nav>
             <ul>
@@ -23,6 +30,34 @@
             </ul>
         </nav>
     </header>
-
+    
+    <article>
+        <div id="ablak">
+            <span class="bezar" onclick="bezar()">X</span>
+            <form>
+                <fieldset>
+                    <legend>Tetszik a Position tulajdonság?</legend>
+                    <label for="igen">Igen </label>
+                    <input type="radio" name="kerdes" id="igen" />
+                    <label for="nem">Nem </label>
+                    <input type="radio" name="kerdes" id="nem" />
+                </fieldset>
+            </form>
+        </div>
+         <div class="kicsik">
+            <div class="kicsiKep" >
+            <img src="kepek/_DSC5273.jpeg" alt="kep1">
+            </div>
+            <div class="kicsiKep" >
+            <img src="kepek/_DSC5278.jpeg" alt="kep1">
+            </div>
+            <div class="kicsiKep" >
+            <img src="kepek/_DSC5357.jpeg" alt="kep1">
+            </div>
+        </div>
+        <div class="nagy">
+            <img  class="nagykep" src="kepek/_DSC5273.jpeg" alt="kep">
+        </div>
+    </article>
 </body>
 </html>
