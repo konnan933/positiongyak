@@ -96,6 +96,7 @@ article h1{
     background-color: rgba(223, 253, 243, 0.788);
     border-radius: 10px;
     padding: 10px;
+    position: relative;
 }
 .kicsik{
     display: grid;
@@ -103,7 +104,7 @@ article h1{
     grid-gap: 10px;
 }
 .kicsiKep{
-    width: 100%px;
+    width: 100%;
 }
 .kicsiKep img{
     width: 100%;
@@ -116,4 +117,14 @@ article h1{
 .nagy{
     padding-top: 15px;
     width: 100%;
+}
+.ujKep {
+    display: none; 
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    top: 100%;
+}
+.kicsiKep:hover .ujKep {
+    display: block;
 }
