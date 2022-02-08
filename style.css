@@ -38,13 +38,14 @@ article{
     width: 100%;
     border-radius: 10px;
     grid-gap: 10px;
-}
-.kicsik img{
-    border-radius: 10px;
-    width: 100%;
+    background-color: rgba(223, 253, 243, 0.788);
 }
 .kicsiKep{
-    width: 50px;
+    width: 200px;
+}
+.kicsiKep img{
+    width: 100%;
+    border-radius: 10px;
 }
 .nagykep{
     border-radius: 10px;
@@ -53,4 +54,21 @@ article{
 .nagy{
     padding-top: 15px;
     width: 100%;
+}
+
+/*galéria kialakítása*/
+.megjelenokep {
+    display: none;
+}
+.kiskep:hover .megjelenokep {
+    display: block;
+}
+.kep {
+    position: relative;
+}
+.megjelenokep {
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    top: 100%;
 }
