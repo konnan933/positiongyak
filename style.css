@@ -32,16 +32,19 @@ article{
     width: 800px;
     position: relative;
 }
+.keret{
+    width: 100%;
+    background-color: rgba(223, 253, 243, 0.788);
+    border-radius: 10px;
+    padding: 10px;
+}
 .kicsik{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    width: 100%;
-    border-radius: 10px;
     grid-gap: 10px;
-    background-color: rgba(223, 253, 243, 0.788);
 }
 .kicsiKep{
-    width: 200px;
+    width: 100%px;
 }
 .kicsiKep img{
     width: 100%;
