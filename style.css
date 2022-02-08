@@ -8,7 +8,9 @@ header{
     height: 50px;
     position: fixed;
     width: 100%;
+    z-index: 1;
 }
+
 nav ul{
     list-style-type: none;
     display: grid;
@@ -53,8 +55,8 @@ a:hover{
 }
 #ablak {
     position: absolute;
-    top: 450px;
-    left: 450px;
+    top: 500px;
+    left: 230px;
     z-index: 1;
     position: relative;
     width: 350px;
@@ -83,6 +85,11 @@ article{
     margin: auto;
     width: 800px;
     position: relative;
+    padding-top: 50px;
+    margin:auto ;
+}
+article h1{
+    font-weight: bold;
 }
 .kicsik{
     display: grid;
