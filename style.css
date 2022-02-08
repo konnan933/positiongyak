@@ -1,0 +1,27 @@
+
+article{
+    margin: auto;
+    width: 800px;
+}
+.kicsik{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+    border-radius: 10px;
+    grid-gap: 10px;
+}
+.kicsik img{
+    border-radius: 10px;
+    width: 100%;
+}
+.kicsiKep{
+    width: 50px;
+}
+.nagykep{
+    border-radius: 10px;
+    width: 100%;
+}
+.nagy{
+    padding-top: 15px;
+    width: 100%;
+}
