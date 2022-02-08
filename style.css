@@ -27,19 +27,3 @@ article{
     width: 100%;
 }
 
-/*galéria kialakítása*/
-.megjelenokep {
-    display: none;
-}
-.kiskep:hover .megjelenokep {
-    display: block;
-}
-.kep {
-    position: relative;
-}
-.megjelenokep {
-    position: absolute;
-    width: 100%;
-    left: 0px;
-    top: 100%;
-}
